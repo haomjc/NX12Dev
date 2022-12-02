@@ -1,0 +1,35 @@
+﻿VERSION 120
+        
+           EDIT UG_GATEWAY_MAIN_MENUBAR
+        
+           BEFORE UG_HELP
+           CASCADE_BUTTON BLOCKSTYLER_DLX_CASCADE_BTN
+           LABEL RV减速器设计
+           END_OF_BEFORE
+        
+       MENU BLOCKSTYLER_DLX_CASCADE_BTN
+
+           BUTTON ROLLER_BTN
+           LABEL 滚子
+           ACTIONS F:\OneDrive\NX12Dev\Application\roller_UI
+
+           BUTTON PIN_BTN
+           LABEL 滚针
+           ACTIONS F:\OneDrive\NX12Dev\Application\pin      
+
+           BUTTON ROLLAWAY_BTN
+           LABEL 滚道
+           ACTIONS F:\OneDrive\NX12Dev\Application\rolla_way   
+
+
+           BUTTON GEARINSIDE_BTN
+           LABEL 针齿壳
+           ACTIONS F:\OneDrive\NX12Dev\Application\gearinside
+
+
+           BUTTON CYCLOIDGEAR_BTN
+           LABEL 摆线轮
+           ACTIONS F:\OneDrive\NX12Dev\Application\cycloid_gear
+
+
+       END_OF_MENU
